@@ -13,7 +13,7 @@ def fileExists(path_carpet):
             if file.name.endswith('.mpp'):
                 # Example of regular expression : 1. Tarea1
                 fileName = Path(file.name).stem
-                pattern = r'^\d+\. [0-9A-Za-z ]+$'
+                pattern = r'^\d+\. [0-9A-Za-z\sáéíóúÁÉÍÓÚüÜ\- ]+$'
                 if bool(re.match(pattern, fileName)):
                     mppFiles.append(file)
                 else:
