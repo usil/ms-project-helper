@@ -74,8 +74,11 @@ def updateMasterFile(masterFile: os.DirEntry[str], files):
                                                         None)
     
                                     if relatedTask is not None:
-                                        task.PercentComplete = relatedTask.PercentComplete
-                                        print(f"Child task {masterTask.Name}: {relatedTask.Name} ({relatedTask.PercentComplete}% Complete)")    
+                                        if relatedTask.PercentComplete is not None:                                                    
+                                            task.PercentComplete = relatedTask.PercentComplete
+                                            print(f"Child task {masterTask.Name}: {relatedTask.Name} ({relatedTask.PercentComplete}% Complete)")
+                                        else:
+                                            print(f"Child task {masterTask.Name}: {relatedTask.Name} not percent complete")    
                                     else:
                                         print(f"Child task {masterTask.Name}: {task.Name} not found")
                                         

@@ -8,7 +8,8 @@ present to the CEO of the company.
 ## Requirements
 
 - Python >= 3.7
-- Install PIP on Windows [installation](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
+- Install PIP on Windows [installation](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) 
+[others](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command)
 
 ### Libraries
 
