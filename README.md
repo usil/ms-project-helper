@@ -1,6 +1,8 @@
 # ms-project-helper with Python
 Project that allows updating % complete of a main file based on child files
 
+:warning: Avoid leaving open the files that will be used
+
 ## Use case
 You have two project managers that use the same ms project structure and you need to merge the file to
 present to the CEO of the company.
