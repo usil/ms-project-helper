@@ -43,10 +43,10 @@ py main.py -h
   :warning: There must be a single base file.
 
   <p align="center">
-    <img src="https://github.com/usil/ms-project-helper/assets/77288944/a1ae5410-a657-4a95-8a5e-03624c180f88" width="100%">
+    <img src="https://github.com/usil/ms-project-helper/assets/77288944/d10986d1-c708-4144-859b-05193cef5e21" width="100%">
   </p>
   <p align="center">
-    <img src="https://github.com/usil/ms-project-helper/assets/77288944/f0d050ab-3117-4a47-a820-3560ac848e4f" width="100%">
+    <img src="https://github.com/usil/ms-project-helper/assets/77288944/d7989fb4-748e-4645-9133-cb5019ff219a" width="100%">
   </p>
 
 2. Run command
@@ -54,12 +54,16 @@ py main.py -h
 :watning: Remember to close all files .mpp before execute this script
 
   <p align="center">
-    <img src="https://github.com/usil/ms-project-helper/assets/77288944/1b0aa3b4-96c3-4ca6-bb8d-03ff94f3fec7" width="100%">
+    <img src="https://github.com/usil/ms-project-helper/assets/77288944/98f90075-4b55-4b61-ae82-4fd1cb5ac75e" width="100%">
+  </p>
+
+  <p align="center">
+    <img src="https://github.com/usil/ms-project-helper/assets/77288944/7f3a7fe7-1a0f-438d-a0a1-65938730f4b7" width="100%">
   </p>
 
 3. Result 
   <p align="center">
-    <img src="https://github.com/usil/ms-project-helper/assets/77288944/9e04c557-35ab-47fc-a2b4-989de093bcc2" width="100%">
+    <img src="https://github.com/usil/ms-project-helper/assets/77288944/05ee0f7b-0a40-43c0-a0df-8d3314547d26" width="100%">
   </p>
 
 
