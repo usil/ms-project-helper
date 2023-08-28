@@ -42,6 +42,11 @@ py main.py -h
 
   :warning: There must be a single base file.
 
+  ### Project example
+
+  [docs.zip](https://github.com/usil/ms-project-helper/files/12458870/docs.zip)
+
+  
   <p align="center">
     <img src="https://github.com/usil/ms-project-helper/assets/77288944/d10986d1-c708-4144-859b-05193cef5e21" width="100%">
   </p>
