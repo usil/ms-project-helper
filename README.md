@@ -51,7 +51,7 @@ py main.py -h
 
 2. Run command
 
-:watning: Remember to close all files .mpp before execute this script
+:warning: Remember to close all files .mpp before execute this script
 
   <p align="center">
     <img src="https://github.com/usil/ms-project-helper/assets/77288944/98f90075-4b55-4b61-ae82-4fd1cb5ac75e" width="100%">
