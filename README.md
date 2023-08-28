@@ -38,15 +38,12 @@ py main.py -h
   - Base file: File to be updated must not conform to the format of the child file and must be unique
   - Child file: It must contain the name (the format must be "PM-cell name 'resource name (Project manager name)'", example "PM-Pamela Ramirez") of the block of tasks that you want to update
 
+    Project example: [docs.zip](https://github.com/usil/ms-project-helper/files/12458870/docs.zip)
+
   :warning: File names must not contain commas or special characters.
 
   :warning: There must be a single base file.
 
-  ### Project example
-
-  [docs.zip](https://github.com/usil/ms-project-helper/files/12458870/docs.zip)
-
-  
   <p align="center">
     <img src="https://github.com/usil/ms-project-helper/assets/77288944/d10986d1-c708-4144-859b-05193cef5e21" width="100%">
   </p>
