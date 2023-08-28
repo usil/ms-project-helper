@@ -25,7 +25,7 @@ Shipping parameters in the console.
 | ---| ---| ---|
 | --source_folder or -sf| Source folder origin| "C:/docs"|
 | --operation or -o| Type of operation| update|
-| --base_node or -bn| Base node| "project > system 1"
+| --base_node or -bn| Base node| "Project > System 1"
 
 Command to list required arguments
 
@@ -67,7 +67,7 @@ py main.py -h
 ```python
 pip install -r requirements.txt
 
-py main.py -sf "source folder" -o update -bn "project > system 1"
+py main.py -sf "source folder" -o update -bn "Project > System 1"
 ```
 
 ## Contributors

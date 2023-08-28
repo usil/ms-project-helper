@@ -152,5 +152,6 @@ def updateMasterFile(mppMasterProject, taskParentMasterProject, tasksMasterProje
         print(f'Error: {str(e)}')
         
     finally: 
+        mppMasterProject.FileSave()         
         mppMasterProject.Quit()
         
