@@ -1,8 +1,3 @@
-Agregar tiempo de demora 
-- Agregar dond se cambia el nombre del recurso
-guia de instalación
-
-
 # ms-project-helper with Python
 Project that allows updating % complete of a main file based on child files
 
