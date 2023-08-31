@@ -1,3 +1,8 @@
+Agregar tiempo de demora 
+- Agregar dond se cambia el nombre del recurso
+guia de instalación
+
+
 # ms-project-helper with Python
 Project that allows updating % complete of a main file based on child files
 
@@ -9,7 +14,7 @@ present to the CEO of the company.
 
 ## Requirements
 
-- Python >= 3.7
+- Python >= 3.7 [installation](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 - Install PIP on Windows [installation](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) 
 [others](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command)
 
@@ -33,6 +38,13 @@ Command to list required arguments
 py main.py -h
 ```
 
+## Manual start
+```python
+pip install -r requirements.txt
+
+py main.py -sf "source folder" -o update -bn "Project > System 1"
+```
+
 ## Steps
 1. Create a folder containing the Ms project files, with the following parameters
   - Base file: File to be updated must not conform to the format of the child file and must be unique
@@ -53,6 +65,12 @@ py main.py -h
 
 :watning: Remember to close all files .mpp before execute this script
 
+```python
+pip install -r requirements.txt
+
+py main.py -sf "source folder" -o update -bn "Project > System 1"
+```
+
   <p align="center">
     <img src="https://github.com/usil/ms-project-helper/assets/77288944/98f90075-4b55-4b61-ae82-4fd1cb5ac75e" width="100%">
   </p>
@@ -67,12 +85,9 @@ py main.py -h
   </p>
 
 
-## Manual start (developers)
-```python
-pip install -r requirements.txt
+## Note (developers)
+- Lines 76 and 77, there is the field names of the resources of the file 'functions/mpp.py'.
 
-py main.py -sf "source folder" -o update -bn "Project > System 1"
-```
 
 ## Contributors
 

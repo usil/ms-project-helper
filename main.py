@@ -1,9 +1,12 @@
 import argparse
 import os
+import time
 from pathlib import Path
 from functions.mpp import fileExists, updateMasterFile, getTaskByName
 
 def main(arguments):
+    timeStart = time.time()
+    
     sourceFolder: str = arguments.source_folder
     operation: str = arguments.operation
     baseNode: str = arguments.base_node
@@ -33,10 +36,16 @@ def main(arguments):
     
     print('--------------------------------------')
     print(f"UPDATE MASTER FILE {Path(masterFile.name).stem}")
+    
     if operation == "update": 
         updateMasterFile(mppMasterProject, taskParentMasterProject, tasksMasterProject, tasksChilds)
     else:
         print("Operation not supported")
+        
+    timeEnd = time.time()
+    minutes = (timeEnd - timeStart) / 60
+    print('--------------------------------------')
+    print(f'Time: {minutes} minutes')
 
 if __name__ == '__main__':
     print(f'Remember to close all files .mpp before execute this script')

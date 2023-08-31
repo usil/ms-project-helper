@@ -70,6 +70,7 @@ def updateMasterFile(mppMasterProject, taskParentMasterProject, tasksMasterProje
         for child in childs:   
             childTasks: any | list = child['tasks']
    
+            # Resource names change, line 76 and 77 "x.ResourceNames"
             tasksByProjectManager = [x for x in tasksMasterProject
                                             if x is not None 
                                             and x.ResourceNames is not None
