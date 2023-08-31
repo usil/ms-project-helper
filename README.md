@@ -48,7 +48,9 @@ py main.py -sf "source folder" -o update -bn "Project > System 1"
 ## Steps
 1. Create a folder containing the Ms project files, with the following parameters
   - Base file: File to be updated must not conform to the format of the child file and must be unique
-  - Child file: It must contain the name (the format must be "PM-Project manager fileName") of the block of tasks that you want to update
+  - Child file: It must contain the name (the format must be "PM-cell name 'resource name (Project manager name)'", example "PM-Pamela Ramirez") of the block of tasks that you want to update
+
+    Project example: [docs.zip](https://github.com/usil/ms-project-helper/files/12458870/docs.zip)
 
   :warning: File names must not contain commas or special characters.
 
@@ -63,7 +65,7 @@ py main.py -sf "source folder" -o update -bn "Project > System 1"
 
 2. Run command
 
-:watning: Remember to close all files .mpp before execute this script
+:warning: Remember to close all files .mpp before execute this script
 
 ```python
 pip install -r requirements.txt
