@@ -81,11 +81,6 @@ py main.py -sf "source folder" -o update -bn "Project > System 1"
     <img src="https://github.com/usil/ms-project-helper/assets/77288944/05ee0f7b-0a40-43c0-a0df-8d3314547d26" width="100%">
   </p>
 
-
-## Note (developers)
-- Lines 76 and 77, there is the field names of the resources of the file 'functions/mpp.py'.
-
-
 ## Contributors
 
 <table>
